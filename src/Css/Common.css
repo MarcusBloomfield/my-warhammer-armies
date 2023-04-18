@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 200%;
+    background-color: #1C2321;
+    color: #EEF1EF;
+    font-family: 'Calibri'
+}
+
+@media (min-width: 70em) {
+    body {
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        background-color: #1C2321;
+        color: #EEF1EF;
+        font-family: 'Gill Sans',
+            'Gill Sans MT',
+            'Calibri',
+            'Trebuchet MS',
+            sans-serif;
+    }
+}

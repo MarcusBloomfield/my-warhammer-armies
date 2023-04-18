@@ -1,0 +1,14 @@
+.LordBase {
+    grid-column: 1/1;
+    grid-row: 7/7;
+    padding: 3em;
+    font-size: medium;
+}
+
+.LordDetails {
+    padding: 1em;
+}
+
+.LordText {
+    padding: 1em;
+}

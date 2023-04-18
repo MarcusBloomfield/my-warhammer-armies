@@ -1,0 +1,14 @@
+.DataBase {
+    grid-column: 1/1;
+    grid-row: 8/8;
+    padding: 3em;
+    font-size: medium;
+}
+
+.DataDetails {
+    padding: 1em;
+}
+
+.DataText {
+    padding: 1em;
+}

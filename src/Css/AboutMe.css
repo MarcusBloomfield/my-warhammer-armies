@@ -1,0 +1,11 @@
+.aboutMe {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+@media (min-width: 70em) {
+    .aboutMe {
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+}

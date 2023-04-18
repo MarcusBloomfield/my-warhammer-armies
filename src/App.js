@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './Css/Animate.css'
+import './Css/Common.css'
+import './Css/Home.css'
+import './Css/Footer.css'
+import './Css/Header.css'
+import './Css/NavBar.css'
+import './Css/AboutMe.css'
+import './Css/Philosophy.css'
+import './Css/Summary.css'
+import './Css/BackToTop.css'
+import './Css/Link.css'
+import './Css/Passion.css'
+import './Css/HowILearned.css'
+import './Css/Education.css'
+import './Css/Experience.css'
+import "aos/dist/aos.css"
+import Home from './Pages/Home.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Home />
   );
 }
 

@@ -1,0 +1,14 @@
+.WarBase {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    padding: 3em;
+    font-size: medium;
+}
+
+.WarDetails {
+    padding: 1em;
+}
+
+.WarText {
+    padding: 1em;
+}

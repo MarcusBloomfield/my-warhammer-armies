@@ -1,0 +1,24 @@
+.header {
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+    padding: 1em;
+}
+
+.headerAbout {
+    height: 1em;
+    opacity: 0;
+}
+
+@media(min-width: 70em) {
+    .header {
+        grid-column: 1 / 1;
+        grid-row: 1/1;
+        padding: 3em;
+        min-width: 20em;
+    }
+
+    .headerAbout {
+        height: 1em;
+        opacity: 1;
+    }
+}

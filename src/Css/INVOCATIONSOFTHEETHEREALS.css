@@ -1,0 +1,14 @@
+.EtherealBase {
+    grid-column: 1/1;
+    grid-row: 6/6;
+    padding: 3em;
+    font-size: medium;
+}
+
+.EtherealDetails {
+    padding: 1em;
+}
+
+.EtherealText {
+    padding: 1em;
+}

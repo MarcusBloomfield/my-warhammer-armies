@@ -1,0 +1,14 @@
+.AbilityBase {
+    grid-column: 1/1;
+    grid-row: 4/4;
+    padding: 3em;
+    font-size: medium;
+}
+
+.AbilityDetails {
+    padding: 1em;
+}
+
+.AbilityText {
+    padding: 1em;
+}

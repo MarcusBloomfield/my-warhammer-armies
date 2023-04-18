@@ -1,0 +1,19 @@
+.backGroundImg {
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    z-index: -100;
+}
+
+@media (min-width: 70em) {
+    .backGroundImg {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        top: 0%;
+        left: 0%;
+        z-index: -100;
+    }
+}
