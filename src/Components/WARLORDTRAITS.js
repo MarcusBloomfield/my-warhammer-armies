@@ -3,7 +3,7 @@ import '../Css/WARLORDTRAITS.css'
 export default function WARLORDTRAITS({ ...props }) {
     return (
         <div className="LordBase">
-            <h1> PRECISION OF THE HUNTER </h1>
+            <h1> WARLOD TRAITS </h1>
             <div className="LordDetails">
                 <h3>STORM OF FIRE</h3>
                 <ul>

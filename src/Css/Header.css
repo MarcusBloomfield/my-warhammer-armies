@@ -5,8 +5,7 @@
 }
 
 .headerAbout {
-    height: 1em;
-    opacity: 0;
+    height: .2em;
 }
 
 @media(min-width: 70em) {
@@ -19,6 +18,5 @@
 
     .headerAbout {
         height: 1em;
-        opacity: 1;
     }
 }

@@ -3,7 +3,7 @@ export default function Header() {
         <div className="header">
             <h1> Warhammer </h1>
             <div className="headerAbout">
-                Warhammer Army Website for my own armies
+                Details of my warhammer army for personal use.  
             </div>
         </div>
     );

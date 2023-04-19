@@ -2,7 +2,7 @@ import "../Css/DataSheet.css";
 
 export default function Model({ ...props }) {
     return (
-        <div >
+        <div className="Model">
             <div className="DataText">
                 <b> {props.title} </b>
                 {HideListItem(props.stats1)}
@@ -11,18 +11,27 @@ export default function Model({ ...props }) {
             </div>
             <div className="DataText">
                 {HideTitle(props.weapon1, "WEAPONS")}
-                <ul>
-                    {HideText(props.weapon1)}
-                    {HideText(props.weaponAbility1)}
-                    {HideText(props.weapon2)}
-                    {HideText(props.weaponAbility2)}
-                    {HideText(props.weapon3)}
-                    {HideText(props.weaponAbility3)}
-                    {HideText(props.weapon4)}
-                    {HideText(props.weaponAbility4)}
-                    {HideText(props.weapon5)}
-                    {HideText(props.weaponAbility5)}
-                </ul>
+                <div>
+                    {HideBold(props.weapon1name)}
+                    {HideListItem(props.weapon1)}
+                    {HideListItem(props.weaponAbility1)}
+
+                    {HideBold(props.weapon2name)}
+                    {HideListItem(props.weapon2)}
+                    {HideListItem(props.weaponAbility2)}
+
+                    {HideBold(props.weapon3name)}
+                    {HideListItem(props.weapon3)}
+                    {HideListItem(props.weaponAbility3)}
+
+                    {HideBold(props.weapon4name)}
+                    {HideListItem(props.weapon4)}
+                    {HideListItem(props.weaponAbility4)}
+
+                    {HideBold(props.weapon5name)}
+                    {HideListItem(props.weapon5)}
+                    {HideListItem(props.weaponAbility5)}
+                </div>
             </div>
 
             <div className="DataText">
@@ -55,5 +64,9 @@ function HideListItem(stats) {
 
 function HideTitle(weapon, title) {
     if (weapon != null) return (<b> {title} </b>)
+    else return null
+}
+function HideBold(weapon) {
+    if (weapon != null) return (<b> {weapon} </b>)
     else return null
 }
