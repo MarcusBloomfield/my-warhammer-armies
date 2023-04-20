@@ -3,10 +3,8 @@ import "../Css/DataSheet.css";
 export default function Model({ ...props }) {
     return (
         <div className="Model">
-            <div>
-                <h2> {props.title} </h2>
-                <h3 className="ModelCost"> Points: {props.modelCost}  </h3>
-            </div>
+            <h2 className="ModelName"> {props.title}</h2>
+            <h3 className="ModelCost"> Points: {props.modelCost}  </h3>
             <div className="DataText">
                 {HideBold("STATS")}
                 {HideListItem(props.stats1)}

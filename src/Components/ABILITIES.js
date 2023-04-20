@@ -11,10 +11,11 @@ export default function ABILITIES({ ...props }) {
             </ul>
             <ul className='AbilityDetails'>
                 <h3> MARKERLIGHTS</h3>
-                <li className='AbilityText'>for each markerlight that model is equipped with, select one enemy unit within 36" of that model that would be an eligible target for that model if its unit had been selected to shoot, and roll one D6: on a 3+, that enemy unit gains one Markerlight token.’</li>
-                <li className='AbilityText'>Each time a model in that unit makes a ranged attack against a unit with one or more Markerlight tokens, add 1 to that attack’s hit roll.</li>
-                <li className='AbilityText'>After that unit has finished making attacks, for each enemy unit targeted by those attacks, remove one Markerlight token from that enemy unit.</li>
-                <li className='AbilityText'>At the end of your Shooting phase, remove all Markerlight tokens from enemy units..</li>
+                <li className='AbilityText'>for each markerlight that model is equipped with, select one enemy unit within 36" of that model that would be an eligible target for that model if its unit had been selected to shoot, and roll one D6: on a 3+, that enemy unit gains one Markerlight token.’
+                    Each time a model in that unit makes a ranged attack against a unit with one or more Markerlight tokens, add 1 to that attack’s hit roll.
+                    After that unit has finished making attacks, for each enemy unit targeted by those attacks, remove one Markerlight token from that enemy unit.
+                    At the end of your Shooting phase, remove all Markerlight tokens from enemy units..
+                </li>
             </ul>
             <ul className='AbilityDetails'>
                 <h3>MANTA STRIKE</h3>

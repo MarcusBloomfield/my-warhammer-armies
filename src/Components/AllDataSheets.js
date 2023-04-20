@@ -7,7 +7,9 @@ export default function AllDataSheets({ ...props }) {
         <Element name="ALLDATASHEETS" className="DataBase">
 
             <div className="DataDetails">
-                <h1 className="DataTitle"> DATA SHEETS </h1>
+                <h1 className="DataTitle "> DATA SHEETS </h1>
+            </div>
+            <div className="DataDetails">
                 <h1 className="DataTitle"> GHOSTHEEL BATTLESUIT </h1>
                 <Model
                     title="GHOSTKEEL SHAS'VRE"

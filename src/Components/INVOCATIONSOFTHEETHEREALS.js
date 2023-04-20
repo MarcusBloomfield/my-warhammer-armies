@@ -23,7 +23,7 @@ export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
                     <li className="EtherealText"> If this invocation is inspiring, select one friendly T’AU EMPIRE CORE unit (excluding FARSIGHT ENCLAVES units) within 6" of this ETHEREAL. Each time a ranged attack is made against that unit, if it did not Remain Stationary in your previous Movement phase, subtract 1 from that attack’s hit roll.</li>
                 </ul>
             </div>
-            <div className="EthereaDetails">
+            <div className="EtherealDetails">
                 <h3>UNIFYING MANTRA</h3>
                 <ul >
                     <li className="EtherealText"> If this invocation is inspiring, then while a friendly T’AU EMPIRE CORE unit (excluding FARSIGHT ENCLAVES units) is within 6" of this ETHEREAL:

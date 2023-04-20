@@ -3,17 +3,15 @@
     grid-row: 6/6;
     padding: 3em;
     font-size: medium;
-    background-color: #2d3734;
+    background-color: #9393ab5b;
     margin: 3em;
+    border-radius: 3em;
 }
 
 .EtherealDetails {
     padding: 1em;
 }
 
-.EtherealText {
-    padding: 1em;
-}
 
 @media (min-width: 70em) {
     .EtherealBase {
