@@ -3,15 +3,19 @@ import "../Css/DataSheet.css";
 export default function Model({ ...props }) {
     return (
         <div className="Model">
+            <div>
+                <h2> {props.title} </h2>
+                <h3 className="ModelCost"> Points: {props.modelCost}  </h3>
+            </div>
             <div className="DataText">
-                <b> {props.title} </b>
+                {HideBold("STATS")}
                 {HideListItem(props.stats1)}
                 {HideListItem(props.stats2)}
                 {HideListItem(props.stats3)}
             </div>
+            {HideTitle(props.weapon1, "WEAPONS")}
             <div className="DataText">
-                {HideTitle(props.weapon1, "WEAPONS")}
-                <div>
+                <>
                     {HideBold(props.weapon1name)}
                     {HideListItem(props.weapon1)}
                     {HideListItem(props.weaponAbility1)}
@@ -31,24 +35,36 @@ export default function Model({ ...props }) {
                     {HideBold(props.weapon5name)}
                     {HideListItem(props.weapon5)}
                     {HideListItem(props.weaponAbility5)}
-                </div>
+                </>
             </div>
 
+            {HideTitle(props.warGear1, "WARGEAR")}
             <div className="DataText">
-                {HideTitle(props.warGear1, "WARGEAR")}
+                {HideBold(props.warGear1name)}
                 {HideListItem(props.warGear1)}
+
+                {HideBold(props.warGear2name)}
                 {HideListItem(props.warGear2)}
+
+                {HideBold(props.warGear3name)}
                 {HideListItem(props.warGear3)}
+
+                {HideBold(props.warGear4name)}
                 {HideListItem(props.warGear4)}
             </div>
 
+            {HideTitle(props.abilities1, "ABILITIES")}
             <div className="DataText">
-                {HideTitle(props.abilities1, "ABILITIES")}
+                {HideBold(props.abilities1name)}
                 {HideListItem(props.abilities1)}
+
+                {HideBold(props.abilities2name)}
                 {HideListItem(props.abilities2)}
+
+                {HideBold(props.abilities3name)}
                 {HideListItem(props.abilities3)}
             </div>
-        </div>
+        </div >
     );
 }
 
@@ -58,7 +74,7 @@ function HideText(weapon) {
 }
 
 function HideListItem(stats) {
-    if (stats != null) return (<li>{stats}</li>)
+    if (stats != null) return (<li className="ModelListItem">{stats}</li>)
     else return null
 }
 

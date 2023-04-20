@@ -1,8 +1,9 @@
 import '../Css/ABILITIES.css'
+import Element from "react-scroll/modules/components/Element";
 
 export default function ABILITIES({ ...props }) {
     return (
-        <div className="AbilityBase">
+        <Element name="ABILITIES" className="AbilityBase">
             <h1> ABILITIES </h1>
             <ul className='AbilityDetails'>
                 <h3>BATTLESUITS</h3>
@@ -30,6 +31,6 @@ export default function ABILITIES({ ...props }) {
                     In your Command phase, select one friendly T’AU EMPIRE CORE or T’AU AUXILIARY unit within 6" of this unit’s ETHEREAL model (excluding FARSIGHT ENCLAVES units). Until the start of your next Command phase, while that unit is performing an action, it can make ranged attacks without that action failing.
                 </li>
             </ul>
-        </div>
+        </Element>
     );
 }

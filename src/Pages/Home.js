@@ -8,7 +8,7 @@ import STRATAGEMS from '../Components/STRATAGEMS.js';
 import INVOCATIONSOFTHEETHEREALS from '../Components/INVOCATIONSOFTHEETHEREALS.js'
 import WARLORDTRAITS from '../Components/WARLORDTRAITS.js';
 import AllDataSheets from '../Components/AllDataSheets.js';
-import Element from "react-scroll/modules/components/Element";
+import BackGroundImg from '../Components/BackGroundImg.js';
 
 //Todo
 //Complete inserting all needed data
@@ -16,19 +16,22 @@ import Element from "react-scroll/modules/components/Element";
 //Do Desktop Css
 //Make pretty
 
+// add drones section
+
 export default function Home() {
     return (
         <div className="home animate__animated animate__fadeIn">
             <Header />
             <NavBar />
-            <Element name="PHILOSOPHIESOFWAR"><PHILOSOPHIESOFWAR /></Element>
-            <Element name="ABILITIES"> <ABILITIES /></Element>
-            <Element name="STRATAGEMS"> <STRATAGEMS /></Element>
-            <Element name="INVOCATIONSOFTHEETHEREALS"> <INVOCATIONSOFTHEETHEREALS /></Element>
-            <Element name="WARLORDTRAITS"> <WARLORDTRAITS /></Element>
-            <Element name="ALLDATASHEETS"> <AllDataSheets /></Element>
-            <Element name="BackToTop"><BackToTop /></Element>
-            <Element name="Footer"> <Footer /></Element>
+            <BackGroundImg />
+            <PHILOSOPHIESOFWAR />
+            <ABILITIES />
+            <STRATAGEMS />
+            <INVOCATIONSOFTHEETHEREALS />
+            <WARLORDTRAITS />
+            <AllDataSheets />
+            <BackToTop />
+            <Footer />
         </div>
     );
 }

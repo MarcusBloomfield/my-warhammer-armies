@@ -1,6 +1,8 @@
+
+import Element from "react-scroll/modules/components/Element";
 export default function Footer() {
     return (
-        <div className="footer">
+        <Element name="Footer" className="footer">
             <h2> Contact </h2>
             <div> marcusbloomfield3@gmail.com</div>
             <div>
@@ -9,6 +11,6 @@ export default function Footer() {
             <div>
                 <a href="https://www.youtube.com/channel/UC3WBEpmhnvW3ILqzr9eDR5Q" rel="noreferrer" className="link"> YouTube </a>
             </div>
-        </div>
+        </Element>
     );
 }

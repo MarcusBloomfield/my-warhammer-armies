@@ -14,3 +14,15 @@
 .LordText {
     padding: 1em;
 }
+
+@media (min-width: 70em) {
+    .LordBase {
+        grid-column: 2/2;
+        grid-row: 6/7;
+        padding: 3em;
+        font-size: medium;
+        background-color: #2d3734;
+        max-width: 50%;
+        margin: auto;
+    }
+}

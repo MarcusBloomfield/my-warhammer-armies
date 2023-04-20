@@ -14,3 +14,16 @@
 .EtherealText {
     padding: 1em;
 }
+
+@media (min-width: 70em) {
+    .EtherealBase {
+        grid-column: 1/1;
+        grid-row: 6/6;
+        padding: 3em;
+        font-size: medium;
+        background-color: #2d3734;
+        max-width: 70%;
+        margin: 3em;
+        margin-left: auto;
+    }
+}

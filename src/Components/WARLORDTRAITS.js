@@ -1,9 +1,10 @@
 import '../Css/WARLORDTRAITS.css'
+import Element from "react-scroll/modules/components/Element";
 
 export default function WARLORDTRAITS({ ...props }) {
     return (
-        <div className="LordBase">
-            <h1> WARLOD TRAITS </h1>
+        <Element name="WARLORDTRAITS" className="LordBase">
+            <h1> WARLORD TRAITS </h1>
             <div className="LordDetails">
                 <h3>STORM OF FIRE</h3>
                 <ul>
@@ -41,6 +42,6 @@ export default function WARLORDTRAITS({ ...props }) {
                     <li className="LordText"> In your Command phase, select one friendly SEPT CORE unit within 9" of this WARLORD. Until the start of your next Command phase, each time a Core model in that unit makes a ranged attack that targets an enemy unit within 9", or 12" if you selected the Mont’ka Tactical Philosophy this battle, you can re-roll the wound roll.</li>
                 </ul>
             </div>
-        </div>
+        </Element>
     );
 }

@@ -14,3 +14,16 @@
 .AbilityText {
     padding: 1em;
 }
+
+@media (min-width: 70em) {
+    .AbilityBase {
+        grid-column: 1/1;
+        grid-row: 3/3;
+        padding: 3em;
+        font-size: medium;
+        background-color: #2d3734;
+        max-width: 70%;
+        margin-top: auto;
+        margin-left: auto;
+    }
+}

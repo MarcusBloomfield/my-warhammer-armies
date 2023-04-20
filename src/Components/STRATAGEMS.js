@@ -1,8 +1,9 @@
 import '../Css/STRATAGEMS.css'
+import Element from "react-scroll/modules/components/Element";
 
 export default function STRATAGEMS({ ...props }) {
     return (
-        <div className="StratBase">
+        <Element name="STRATAGEMS" className="StratBase">
             <h1> STRATAGEMS </h1>
             <div className="StratDetails">
                 <h3>COMMAND RE-ROLL 1CP</h3>
@@ -70,6 +71,6 @@ export default function STRATAGEMS({ ...props }) {
                     <li className="StratText">Use this Stratagem at the start of your Shooting phase. Select one FIRE WARRIOR TEAM unit from your army that is within Engagement Range of any enemy units. Until the end of the phase, pulse blasters, pulse carbines and pulse rifles that models in that unit are equipped with have the Type characteristic Pistol 2.</li>
                 </ul>
             </div>
-        </div>
+        </Element>
     );
 }

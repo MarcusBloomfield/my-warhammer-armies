@@ -1,8 +1,9 @@
 import '../Css/INVOCATIONSOFTHEETHEREALS.css'
+import Element from "react-scroll/modules/components/Element";
 
 export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
     return (
-        <div className="EtherealBase">
+        <Element name="INVOCATIONSOFTHEETHEREALS" className="EtherealBase">
             <h1> INVOCATIONS OF THE ETHEREALS </h1>
             <div className="EtherealDetails">
                 <h3>STORM OF FIRE</h3>
@@ -12,7 +13,7 @@ export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
             </div>
             <div className="EtherealDetails">
                 <h3>SENSE OF STONE</h3>
-                <ul > 
+                <ul >
                     <li className="EtherealText"> If this invocation is inspiring, select one friendly T’AU EMPIRE CORE unit (excluding FARSIGHT ENCLAVES units) within 6" of this ETHEREAL. Each time a CORE model in that unit would lose a wound, roll one D6: on a 5+, that wound is not lost.</li>
                 </ul>
             </div>
@@ -24,7 +25,7 @@ export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
             </div>
             <div className="EthereaDetails">
                 <h3>UNIFYING MANTRA</h3>
-                <ul > 
+                <ul >
                     <li className="EtherealText"> If this invocation is inspiring, then while a friendly T’AU EMPIRE CORE unit (excluding FARSIGHT ENCLAVES units) is within 6" of this ETHEREAL:
 
                         You can re-roll Morale tests taken for that unit.
@@ -33,10 +34,10 @@ export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
             </div>
             <div className="EtherealDetails">
                 <h3>WISDOM OF THE GUIDES</h3>
-                <ul > 
+                <ul >
                     <li className="EtherealText"> If this invocation is inspiring, you gain 1 Command point.</li>
                 </ul>
             </div>
-        </div>
+        </Element>
     );
 }
