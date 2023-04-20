@@ -21,8 +21,9 @@
         grid-row: 6/7;
         padding: 3em;
         font-size: medium;
-        background-color: #2d3734;
+        background-color: #9393ab5b;
         max-width: 50%;
         margin: auto;
+        border-radius: 3em;
     }
 }

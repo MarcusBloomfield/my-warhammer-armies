@@ -32,7 +32,7 @@
 
 .Model {
     border-radius: 40px;
-    background-color: #576661;
+    background-color: #9393ab5b;
     margin: 1em;
 }
 
@@ -61,7 +61,7 @@
     }
 
     .DataDetails {
-        background-color: #2d3734;
+        background-color: #9393ab5b;
         border-radius: 11px;
         width: 50%;
         margin: auto;
@@ -71,7 +71,7 @@
     .Model {
         padding: 2em;
         border-radius: 25px;
-        background-color: #374541;
+        background-color: #7f7f9d5b;
         margin: 1em;
     }
 

@@ -21,9 +21,10 @@
         grid-row: 3/3;
         padding: 3em;
         font-size: medium;
-        background-color: #2d3734;
+        background-color: #9393ab5b;
         max-width: 70%;
         margin-bottom: auto;
         margin-left: auto;
+        border-radius: 3em;
     }
 }
