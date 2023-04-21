@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-warhammer-armies/Home/static/css/main.2f42e55c.css",
+    "main.js": "/my-warhammer-armies/Home/static/js/main.55b1fdb1.js",
+    "static/media/BackGroundImg.jpg": "/my-warhammer-armies/Home/static/media/BackGroundImg.df896ddc3a2d7d5faeed.jpg",
+    "index.html": "/my-warhammer-armies/Home/index.html",
+    "main.2f42e55c.css.map": "/my-warhammer-armies/Home/static/css/main.2f42e55c.css.map",
+    "main.55b1fdb1.js.map": "/my-warhammer-armies/Home/static/js/main.55b1fdb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f42e55c.css",
+    "static/js/main.55b1fdb1.js"
+  ]
+}
