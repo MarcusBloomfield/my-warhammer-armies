@@ -1,7 +1,7 @@
 import '../Css/PHILOSOPHIESOFWAR.css'
 import Element from "react-scroll/modules/components/Element";
 
-export default function PHILOSOPHIESOFWAR({ ...props }) {
+export default function PHILOSOPHIESOFWAR() {
     return (
         <Element name="PHILOSOPHIESOFWAR" className="WarBase">
             <h1> PHILOSOPHIES OF WAR </h1>

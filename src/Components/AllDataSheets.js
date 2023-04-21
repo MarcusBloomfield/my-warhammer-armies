@@ -2,7 +2,7 @@ import Model from "./Model";
 import DataSheet from "../Css/DataSheet.css"
 import Element from "react-scroll/modules/components/Element";
 
-export default function AllDataSheets({ ...props }) {
+export default function AllDataSheets() {
     return (
         <Element name="ALLDATASHEETS" className="DataBase">
 
@@ -13,7 +13,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> GHOSTHEEL BATTLESUIT </h1>
                 <Model
                     title="GHOSTKEEL SHAS'VRE"
-                    modelCost="85"
+                    modelCost="160/unit"
 
                     stats1="M12 WS5+ BS4+	S6 T7 W7-12 A3	LD9	SV3+"
                     stats2="M8 WS5+ BS5+	S6 T7 W4-6 AD3	LD9	SV3+"
@@ -54,7 +54,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> STEALTH BATTLESUITS </h1>
                 <Model
                     title="Stealth Shas’ui"
-                    modelCost="85"
+                    modelCost="25"
                     stats1="M8 WS5+ BS4+	S4 T4 W2 A2	LD8	SV3+"
 
                     weapon1name="Burst Cannon "
@@ -71,7 +71,7 @@ export default function AllDataSheets({ ...props }) {
                 />
                 <Model
                     title="Stealth Shas’vre"
-                    modelCost="85"
+                    modelCost="25"
                     stats1="M8 WS5+ BS4+	S4 T4 W2 A2	LD9	SV3+"
 
                     weapon1name="Burst Cannon "
@@ -93,7 +93,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> STORMSURGE </h1>
                 <Model
                     title="Stormsurge"
-                    modelCost="85"
+                    modelCost="405"
                     stats1="M8 WS5+ BS4+	S8 T8 W12-22 A3	LD8	SV2+"
                     stats2="M8 WS5+ BS4+	S8 T8 W6-11 A3	LD8	SV2+"
                     stats3="M8 WS5+ BS4+	S8 T8 W1-5 A3	LD8	SV2+"
@@ -146,7 +146,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> COMMANDER IN ENFORCER BATTLESUIT </h1>
                 <Model
                     title="COMMANDER IN ENFORCER BATTLESUIT"
-                    modelCost="85"
+                    modelCost="175"
                     stats1="M8 WS3+ BS2+	S5 T5 W7 A4	LD10	SV2+"
 
 
@@ -200,7 +200,7 @@ export default function AllDataSheets({ ...props }) {
                 />
                 <Model
                     title="SUPPORT TURRET"
-                    modelCost="85"
+                    modelCost="10"
                     stats1="M- WS- BS4+ S3 T3 W1 A- LD4 SV4+"
                     weapon1name="Smart missile system "
                     weapon1=" R:30 Heavy:4 S:5 AP:-1 D:1"
@@ -210,7 +210,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> PATHFINDER TEAM </h1>
                 <Model
                     title="Pathfinder"
-                    modelCost="85"
+                    modelCost="105/unit"
                     stats1="M7 WS5+ BS4+	S3 T3 W1 A1	LD7	SV5+"
 
                     weapon1name="Pulse Pistol"
@@ -238,7 +238,7 @@ export default function AllDataSheets({ ...props }) {
                 />
                 <Model
                     title="Pathfinder Shas’ui"
-                    modelCost="85"
+                    modelCost="105/unit"
                     stats1="M7 WS5+ BS4+	S3 T3 W1 A2	LD8	SV5+"
                     weapon1name="Pulse Pistol"
                     weapon1=" R:12 Pistol:1 S:5 AP:0 D:1"
@@ -258,7 +258,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> BROADSIDE BATTLESUITS </h1>
                 <Model
                     title="Broadside Shas’ui"
-                    modelCost="85"
+                    modelCost="105"
                     stats1="M5 WS5+ BS4+	S5 T5 W8 A3	LD8	SV2+"
 
                     weapon1name="Heavy rail rifle "
@@ -279,7 +279,7 @@ export default function AllDataSheets({ ...props }) {
                 <h1 className="DataTitle"> CADRE FIREBLADE </h1>
                 <Model
                     title="Cadre Fireblade"
-                    modelCost="85"
+                    modelCost="50"
                     stats1="M6 WS4+ BS3+	S4 T4 W4 A3	LD8	SV4+"
 
 
@@ -294,6 +294,41 @@ export default function AllDataSheets({ ...props }) {
 
                     abilities2name="Target Sighted"
                     abilities2="In your Command phase, select one friendly SEPT FIRE WARRIOR TEAM unit within 9 of this unit’s CADRE FIREBLADE model; until the start of your next Command phase, each time a CORE model in that unit makes a ranged attack, re-roll a hit roll of 1."
+
+                />
+            </div>
+            <div className="DataDetails">
+                <h1 className="DataTitle"> DRONES </h1>
+                <Model
+                    title="All Drones"
+                    modelCost="10-15"
+
+                    abilities1name="Valued Sacrifice"
+                    abilities1="Each time a DRONE model in this unit is destroyed, it is ignored for the purpose of Morale tests if this unit also contains models without the DRONE keyword."
+
+                    abilities2name="Artificial Helpers"
+                    abilities2=" DRONE models are ignored for the purposes of:
+                        The Look Out, Sir rule.
+                                Determining this unit’s Starting Strength, and whether this unit is below Half-strength.
+                            Determining this unit’s Toughness characteristic, if it also contains models without the DRONE keyword."
+
+                    abilities3name="Limited Parameters"
+                    abilities3="If this unit contains only DRONE models, this unit cannot perform actions (excluding the Fire Markerlights action) and loses the Objective Secured ability if it has it, and cannot gain it through any means."
+
+                    abilities4name="Docked Drone"
+                    abilities4="If this model is docked with another: Any weapons this model is equipped with are considered to be equipped to the model it is docked with instead.Attacks cannot be allocated to this model and it does not count as a model on the battlefield for any rules purposes. If the model it is docked with is destroyed, this DRONE model is destroyed as well."
+
+                    abilities5name=""
+                    abilities5=""
+
+                />
+                <Model
+                    title="Grav-inhibitor"
+                    modelCost="10"
+                    stats1="M10	WS5+	BS5+	S3	T4	W1	A1  	LD6 	SV4+"
+
+                    abilities1name="Gravity Wave Projector"
+                    abilities1="Subtract 2 from charge rolls made for any unit that declares a charge against this unit."
 
                 />
             </div>

@@ -17,6 +17,7 @@ import BackGroundImg from '../Components/BackGroundImg.js';
 //Make pretty
 
 // add drones section
+//Make data sheets have tables for stats and maybe add tables for all stuff 
 
 export default function Home() {
     return (

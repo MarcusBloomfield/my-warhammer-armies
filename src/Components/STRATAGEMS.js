@@ -1,7 +1,7 @@
 import '../Css/STRATAGEMS.css'
 import Element from "react-scroll/modules/components/Element";
 
-export default function STRATAGEMS({ ...props }) {
+export default function STRATAGEMS() {
     return (
         <Element name="STRATAGEMS" className="StratBase">
             <h1> STRATAGEMS </h1>

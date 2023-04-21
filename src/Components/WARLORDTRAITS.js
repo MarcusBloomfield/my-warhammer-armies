@@ -1,7 +1,7 @@
 import '../Css/WARLORDTRAITS.css'
 import Element from "react-scroll/modules/components/Element";
 
-export default function WARLORDTRAITS({ ...props }) {
+export default function WARLORDTRAITS() {
     return (
         <Element name="WARLORDTRAITS" className="LordBase">
             <h1> WARLORD TRAITS </h1>

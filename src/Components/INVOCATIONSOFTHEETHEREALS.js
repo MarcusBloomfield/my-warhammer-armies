@@ -1,7 +1,7 @@
 import '../Css/INVOCATIONSOFTHEETHEREALS.css'
 import Element from "react-scroll/modules/components/Element";
 
-export default function INVOCATIONSOFTHEETHEREALS({ ...props }) {
+export default function INVOCATIONSOFTHEETHEREALS() {
     return (
         <Element name="INVOCATIONSOFTHEETHEREALS" className="EtherealBase">
             <h1> INVOCATIONS OF THE ETHEREALS </h1>

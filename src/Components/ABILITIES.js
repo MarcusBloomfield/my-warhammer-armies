@@ -1,7 +1,7 @@
 import '../Css/ABILITIES.css'
 import Element from "react-scroll/modules/components/Element";
 
-export default function ABILITIES({ ...props }) {
+export default function ABILITIES() {
     return (
         <Element name="ABILITIES" className="AbilityBase">
             <h1> ABILITIES </h1>

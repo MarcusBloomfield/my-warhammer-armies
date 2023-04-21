@@ -1,6 +1,6 @@
 {
-  "homepage": "https://marcusbloomfield.github.io/ResumeWebsiteV3",
-  "name": "2dresumewebsite",
+  "homepage": "https://marcusbloomfield.github.io/my-warhammer-armies/Home",
+  "name": "my-warhammer-armies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

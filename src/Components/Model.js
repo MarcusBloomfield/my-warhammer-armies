@@ -61,6 +61,10 @@ export default function Model({ ...props }) {
 
                 {HideBold(props.abilities3name)}
                 {HideListItem(props.abilities3)}
+                {HideBold(props.abilities4name)}
+                {HideListItem(props.abilities4)}
+                {HideBold(props.abilities5name)}
+                {HideListItem(props.abilities5)}
             </div>
         </div >
     );
