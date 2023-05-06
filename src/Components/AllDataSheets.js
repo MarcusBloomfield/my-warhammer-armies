@@ -93,7 +93,7 @@ export default function AllDataSheets() {
                 <h1 className="DataTitle"> STORMSURGE </h1>
                 <Model
                     title="Stormsurge"
-                    modelCost="405"
+                    modelCost="415"
                     stats1="M8 WS5+ BS4+	S8 T8 W12-22 A3	LD8	SV2+"
                     stats2="M8 WS5+ BS4+	S8 T8 W6-11 A3	LD8	SV2+"
                     stats3="M8 WS5+ BS4+	S8 T8 W1-5 A3	LD8	SV2+"
@@ -112,6 +112,9 @@ export default function AllDataSheets() {
                     weapon4name="Twin Airbursting Fragmentation projector "
                     weapon4="R:24 Assult2D6 S:4 AP:-1 D:1"
                     weapon4Ability3="Indirect Fire. Blast. This weapon can target units that are not visible to the bearer."
+
+                    weapon5name="Pulse blastcannon"
+                    weapon5="R:24 Heavy2 S:16 AP:-4 D:12 or R:48 Heavy6 S:12 AP:-2 D:4"
 
 
                     warGear1name="Counterfire defence system"
@@ -318,9 +321,6 @@ export default function AllDataSheets() {
                     abilities4name="Docked Drone"
                     abilities4="If this model is docked with another: Any weapons this model is equipped with are considered to be equipped to the model it is docked with instead.Attacks cannot be allocated to this model and it does not count as a model on the battlefield for any rules purposes. If the model it is docked with is destroyed, this DRONE model is destroyed as well."
 
-                    abilities5name=""
-                    abilities5=""
-
                 />
                 <Model
                     title="Grav-inhibitor"
@@ -331,6 +331,33 @@ export default function AllDataSheets() {
                     abilities1="Subtract 2 from charge rolls made for any unit that declares a charge against this unit."
 
                 />
+                <Model
+                    title="Recon-Drone"
+                    modelCost="10"
+                    stats1="M10	WS5+	BS5+	S3	T4	W1	A1  	LD6 	SV4+"
+
+                    abilities1name="Recon Suite"
+                    abilities1="Each time a model in this unit makes a ranged attack that targets a unit within 18 inches, the target does not receive the benefits of Light Cover against that attack."
+
+                />
+                <Model
+                    title="Shield-Drone"
+                    modelCost="10"
+                    stats1="M10	WS5+	BS5+	S3	T4	W1	A1  	LD6 	SV4+"
+
+                    abilities1name="Drone Shield Generator"
+                    abilities1="This model has a 4+ invulnerable save."
+
+                />
+                <Model
+                    title="Stealth-Drone"
+                    stats1="M10	WS5+	BS5+	S3	T4	W1	A1  	LD6 	SV4+"
+
+                    abilities1name="Stealth Field Generator"
+                    abilities1="This unit cannot be selected as a target for ranged attacks unless it is the closest eligible target to the firing model or the firing model is within 18 inches of it."
+
+                />
+
             </div>
         </Element>
     );

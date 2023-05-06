@@ -1,8 +1,7 @@
 .StratBase {
     grid-column: 1/1;
     grid-row: 5/5;
-    padding: 3em;
-    font-size: medium;
+    padding: 3em;font-size: x-large;
     background-color: #9393ab5b;
     margin: 3em;
     border-radius: 3em;
